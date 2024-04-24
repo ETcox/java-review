@@ -1,0 +1,268 @@
+!SESSION 2024-04-24 13:12:31.550 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2024-04-24 13:13:15.566
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-24 13:13:15.566
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7676b2b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@720c0996,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-24 13:13:15.566
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7910e307,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@460aa24e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-24 13:13:24.495
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\max-student'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2024-04-24 14:00:18.705
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:05.298
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:05.299
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@21054201[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:05.318
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:05.722
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.211
+!MESSAGE Boot LS startup time from start to initialized: 14883ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.504
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MIjWgSfHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.507
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.510
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.511
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.512
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.512
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MIjWgSfH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.516
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.517
+!MESSAGE buffering callback sts4.classpath.MIjWgSfH 02-01Student-Registration false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:20.518
+!MESSAGE executing callback sts4.classpath.MIjWgSfH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:02:21.591
+!MESSAGE executing callback sts4.classpath.MIjWgSfH SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-24 14:03:06.349
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-04-24 14:03:06.897 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-24 14:03:13.729
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2024-04-24 14:03:17.626
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-24 14:03:17.626
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dbd70fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cb53bfc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-24 14:03:17.626
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@779448b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bbdf835,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:22.619
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:22.620
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7de565d4[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:22.625
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:22.817
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-24 14:03:25.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\max-student'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.350
+!MESSAGE Boot LS startup time from start to initialized: 8714ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.709
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.amrErNpiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.712
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.716
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.717
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.718
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.amrErNpi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.719
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.724
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.725
+!MESSAGE buffering callback sts4.classpath.amrErNpi 02-01Student-Registration false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:31.726
+!MESSAGE executing callback sts4.classpath.amrErNpi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:03:32.649
+!MESSAGE executing callback sts4.classpath.amrErNpi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:23:24.974
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:23:24.975
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:23:24.975
+!MESSAGE buffering callback sts4.classpath.amrErNpi 02-02Grade-Converter false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:23:24.976
+!MESSAGE executing callback sts4.classpath.amrErNpi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:23:24.992
+!MESSAGE executing callback sts4.classpath.amrErNpi SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2024-04-24 14:23:38.569
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:46:42.336
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:46:42.338
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:46:42.339
+!MESSAGE buffering callback sts4.classpath.amrErNpi 02-03Rectangle-Calculator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:46:42.339
+!MESSAGE executing callback sts4.classpath.amrErNpi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 14:46:42.417
+!MESSAGE executing callback sts4.classpath.amrErNpi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:00:46.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:00:46.383
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:00:46.384
+!MESSAGE buffering callback sts4.classpath.amrErNpi 03-01Temperature-Converter false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:00:46.385
+!MESSAGE executing callback sts4.classpath.amrErNpi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:00:46.395
+!MESSAGE executing callback sts4.classpath.amrErNpi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:14:45.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:14:45.437
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:14:45.438
+!MESSAGE buffering callback sts4.classpath.amrErNpi 03-02Travel-Time-Calculator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:14:45.439
+!MESSAGE executing callback sts4.classpath.amrErNpi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-24 15:14:45.448
+!MESSAGE executing callback sts4.classpath.amrErNpi SUCCESS [done]
